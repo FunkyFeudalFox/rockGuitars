@@ -1,0 +1,32 @@
+        body {
+            background: red; /* For browsers that do not support gradients */
+            background: linear-gradient(to right, rgba(255,0,0,0),   rgba(255,0,0,0), rgba(255,0,0,1)  /*purple, orange, red,*/ );
+        }
+
+        p {
+            color: red;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        p.NearAndFar{
+            color: #9b4f09;
+        }
+
+        p:hover{
+            color: #ffab11;
+        }
+
+        #lorem{
+
+        color: black;
+        hover{
+                color: yellow;
+            }
+        }
+        #lorem:hover{
+                color: yellow;
+        }
+
